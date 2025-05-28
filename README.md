@@ -7,13 +7,13 @@ Este repositorio contiene un **formulario simple de inscripción a una maratón*
 
 ## 🌐 Vista previa
 
-Puedes ver el formulario funcionando [aquí](#) *(Agrega el enlace si lo publicas en GitHub Pages o similar)*
+Puedes ver el formulario funcionando [aquí](#http://shinigamy19.github.io/Formulario-html/) 
 
 ## 📄 Características
 
-- Recolección de datos personales (nombre, edad, email).
+- Recolección de datos personales (nombre, edad, email y fecha de nacimiento).
 - Selección de distancia (2KM, 5KM, 10KM y 21KM).
-- Selección de camiseta (talla).
+- Selección de camiseta (talla y marca).
 - Confirmación de términos y condiciones.
 - Botón de envío (sin funcionalidad de backend).
 
