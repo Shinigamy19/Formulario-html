@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro para Maratón</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        legend {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Registro para Maratón</h1>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Ingrese su Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Jose"><br><br>
+            <label for="apellido">Ingrese su Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Perez"><br><br>
+            <label for="email">Ingrese su Email:</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com "><br><br>
+            <label for="fecha-nacimiento">Ingrese Fecha Nacimiento:</label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento"><br><br>
+            <label for="archivo">Ficha medica (PDF):</label>
+            <input type="file" id="archivo" name="archivo"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Carrera</legend>
+            <p>Seleccionar Maratón:</p>
+            <ul>
+            <li><input type="radio" name="kilometro" value="2km">2 km</li>
+            <li><input type="radio" name="kilometro" value="5km">5 km</li>
+            <li><input type="radio" name="kilometro" value="10km">10 km</li>
+            <li><input type="radio" name="kilometro" value="21km">21 km</li>
+            </ul>
+            <label for="talla">Talla:</label>
+            <select name="talla">
+                <option value="" disabled selected>Selecciona tu talla</option>
+                <option value="XS">XS - Extra Small</option>
+                <option value="S">S - Small</option>
+                <option value="M">M - Medium</option>
+                <option value="L">L - Large</option>
+                <option value="XL">XL - Extra Large</option>
+                <option value="XXL">XXL - Extra Extra Large</option>
+            </select>
+            <br><br>
+            <label for="marca">Seleccionar Patrociño:</label>
+            <select name="marca">
+                <option value="Nike">Nike</option>
+                <option value="Adidas">Adidas</option>
+                <option value="Puma">Puma</option>
+            </select>
+            <br>
+            <p>Seleccionar días disponibles:</p>
+            <div class="checkbox-container">
+                <ul>
+                    <li><label for="checkbox">Lunes</label>
+                    <input type="checkbox" id="checkbox" name="option1"></li>
+                    <li><label for="checkbox">Martes</label>
+                    <input type="checkbox" id="checkbox" name="option2"></li>
+                    <li><label for="checkbox">Miercoles</label>
+                    <input type="checkbox" id="checkbox" name="option3"></li>
+                    <li><label for="checkbox">Jueves</label>
+                    <input type="checkbox" id="checkbox" name="option4"></li>
+                    <li><label for="checkbox">Viernes</label>
+                    <input type="checkbox" id="checkbox" name="option5"></li>
+                    <li><label for="checkbox">Sabado</label>
+                    <input type="checkbox" id="checkbox" name="option6"></li>
+                    <li><label for="checkbox">Domingo</label>
+                    <input type="checkbox" id="checkbox" name="option7"></li>
+                </ul>
+            </div>
+        </fieldset>
+        <input class="form-check-input" type="checkbox" name="termycon" value="1" id="invalidCheck" required="">
+			<label class="form-check-label"><a href="termycon.php" target="_blank">Terminos y Condiciones</a></label>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
