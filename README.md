@@ -7,7 +7,7 @@ Este repositorio contiene un **formulario simple de inscripción a una maratón*
 
 ## 🌐 Vista previa
 
-Puedes ver el formulario funcionando [aquí](#http://shinigamy19.github.io/Formulario-html/) 
+Puedes ver el formulario funcionando [aquí](http://shinigamy19.github.io/Formulario-html/) 
 
 ## 📄 Características
 
